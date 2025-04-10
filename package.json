@@ -7,16 +7,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "ethers": "^6.6.4",
-    "tronweb": "^4.5.0",
-    "@solana/web3.js": "^1.76.0",
-    "swr": "^2.2.0",
     "@chakra-ui/react": "^2.7.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "framer-motion": "^10.16.3"
+    "@solana/web3.js": "^1.76.0",
+    "ethers": "^6.6.4",
+    "framer-motion": "^10.16.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "swr": "^2.2.0",
+    "tronweb": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
   }
 }
